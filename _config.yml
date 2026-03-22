@@ -4,14 +4,12 @@
 theme: jekyll-theme-chirpy
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
 lang: en-GB
 
 # Change to your timezone › https://zones.arilyn.cc
 timezone:
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# jekyll-seo-tag settings
 # ↓ --------------------------
 
 title: "Healthy Travel Surrey"
@@ -22,24 +20,18 @@ author:
   url: "https://healthytravelsurrey.org"
 
 github:
-  username: github_username # change to your GitHub username
+  username: github_username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: twitter_username
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: your_full_name
-  email: example@domain.com # change to your email address
-  fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
+  email: example@domain.com
+  fediverse_handle:
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://twitter.com/username
+    - https://github.com/username
 
 # Site Verification Settings
 webmaster_verifications:
@@ -107,11 +99,13 @@ comments:
     lang:
     reactions_enabled:
 
-# Self-hosted static assets
+# ⭐ MERGED ASSETS BLOCK (corrected)
 assets:
   self_host:
     enabled:
     env:
+  custom_css:
+    - /assets/css/custom.scss
 
 pwa:
   enabled: true
@@ -165,11 +159,6 @@ defaults:
 sass:
   style: compressed
 
-# ⭐ Custom CSS (added)
-assets:
-  custom_css:
-    - /assets/css/custom.scss
-
 compress_html:
   clippings: all
   comments: all
@@ -198,4 +187,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
