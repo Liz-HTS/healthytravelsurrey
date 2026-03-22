@@ -24,6 +24,8 @@ author:
 github:
   username: github_username # change to your GitHub username
 
+logo: /assets/img/logo.png
+
 twitter:
   username: twitter_username # change to your Twitter username
 
